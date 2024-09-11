@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+    font-family: "SUSE", sans-serif;
+}
+
+.suse-uniquifier {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/423/517/non_2x/3d-black-geometric-abstract-background-overlap-layer-on-dark-space-with-line-motion-style-effect-graphic-design-element-carbon-fiber-texture-concept-for-banner-flyer-card-brochure-cover-etc-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form{
+    color: rgb(240, 255, 255);
+  }
+
+  label{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+  }
+
+  input[type="text"], select {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  input[type="text"]:focus, select:focus {
+   border-color: brown;
+   outline: none;
+   box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+  }
+
+  .container{
+    background-color: rgba(240, 248, 255, 0.37);
+    padding: 30px;
+    border-radius: 10px;
+    
+  }
+
+  h1{
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+  }
+
+  button {
+    background-color: blue;
+    color: beige;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
+  }
+  button:hover {
+    background-color: rgb(50, 42, 165);
+    transform: scale(1.05);
+  }
+
+
+  
