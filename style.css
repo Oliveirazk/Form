@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "SUSE", sans-serif;
-    font-family: "SUSE", sans-serif;
 }
 
 .suse-uniquifier {
@@ -75,6 +74,55 @@
     background-color: rgb(50, 42, 165);
     transform: scale(1.05);
   }
+
+
+
+
+
+/* Organização dos campos do formulário */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Campos de texto, email, senha e telefone */
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Destaque ao selecionar um campo */
+.form input:focus {
+    border-color: brown;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+/* Título do formulário */
+.container h1 {
+    text-align: center;
+}
+
+/* Container adaptável para celular */
+.container {
+    width: 90%;
+    max-width: 450px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+}
+
 
 
   
